@@ -17,6 +17,44 @@ function App() {
             Senior Product Manager at EDP Comercial
           </div>
         </blockqoute>
+        <button className='btn btn--left'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            className='btn-icon'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              d='M15 19l-7-7 7-7'
+            />
+          </svg>
+        </button>
+        <button className='btn btn--right'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            className='btn-icon'
+            fill='none'
+            viewBox='0 0 24 24'
+            stroke='currentColor'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              d='M9 5l7 7-7 7'
+            />
+          </svg>
+        </button>
+        <div className='dots'>
+          <button className='dot dot--fill'>&nbsp;</button>
+          <button className='dot'>&nbsp;</button>
+          <button className='dot'>&nbsp;</button>
+          <button className='dot'>&nbsp;</button>
+        </div>
       </div>
     </>
   );
